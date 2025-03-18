@@ -1,6 +1,6 @@
 import React from "react";
 import { useGlobalContext } from "./context";
-import { BsFillSunFill, BsFillMoonFill } from "react-icons/BS";
+import { BsFillSunFill, BsFillMoonFill } from "react-icons/bs";
 
 const ThemeToggle = () => {
   const { isDartkTheme, toggleDarkTheme } = useGlobalContext();
